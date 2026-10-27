@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentlemen Barbershop - Jasa Potong Rambut Terbaik</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #121212; color: #f4f4f4; line-height: 1.6; }
+        header { background: #1f1f1f; padding: 20px 50px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #d4af37; }
+        .logo { font-size: 24px; font-weight: bold; color: #d4af37; }
+        nav a { color: #f4f4f4; text-decoration: none; margin-left: 20px; font-weight: 600; }
+        nav a:hover { color: #d4af37; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover; height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        .hero h1 { font-size: 48px; margin-bottom: 10px; color: #ffffff; }
+        .hero p { font-size: 18px; margin-bottom: 20px; color: #cccccc; }
+        .btn { background: #d4af37; color: #121212; padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background: #f3c623; }
+        section { padding: 60px 20px; max-width: 1000px; margin: auto; text-align: center; }
+        h2 { font-size: 32px; margin-bottom: 40px; color: #d4af37; border-bottom: 2px solid #333; display: inline-block; padding-bottom: 10px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; text-align: left; }
+        .service-card { background: #1f1f1f; padding: 20px; border-radius: 8px; border-left: 4px solid #d4af37; }
+        .service-card h3 { margin-bottom: 10px; color: #fff; }
+        .service-card .price { color: #d4af37; font-weight: bold; font-size: 18px; margin-top: 10px; display: block; }
+        footer { background: #1a1a1a; text-align: center; padding: 20px; border-top: 1px solid #333; color: #888; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">✂️ Gentlemen Barbershop</div>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#services">Layanan</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Tampil Keren & Percaya Diri</h1>
+        <p>Potongan rambut profesional dengan gaya modern dan klasik.</p>
+        <a href="https://wa.me/6281234567890" class="btn" target="_blank">Booking via WhatsApp</a>
+    </section>
+
+    <section id="services">
+        <h2>Layanan & Harga</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Haircut / Potong Rambut</h3>
+                <p>Konsultasi gaya rambut, cuci rambut, potong sesuai tren, dan penataan.</p>
+                <span class="price">Rp 45.000</span>
+            </div>
+            <div class="service-card">
+                <h3>Haircut + Shaving</h3>
+                <p>Paket lengkap potong rambut dan cukur/merapikan jenggot atau kumis.</p>
+                <span class="price">Rp 65.000</span>
+            </div>
+            <div class="service-card">
+                <h3>Hair Coloring</h3>
+                <p>Pewarnaan rambut profesional dengan pilihan warna berkualitas.</p>
+                <span class="price">Rp 100.000+</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Lokasi & Jam Operasional</h2>
+        <p>📍 Jl. Merdeka No. 45, Kota Anda</p>
+        <p>🕒 Buka Setiap Hari: 10.00 - 21.00 WIB</p>
+        <br>
+        <a href="https://wa.me/6281234567890" class="btn" target="_blank">Hubungi Kami</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gentlemen Barbershop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
